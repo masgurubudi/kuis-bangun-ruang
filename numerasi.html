@@ -189,54 +189,60 @@ var SCHOOLS=[
 ["SMP PGRI ARJOSARI","20511079","Arjosari"]
 ];
 
-/* ===== Bank soal: cerita singkat bangun ruang + 1 pertanyaan ===== */
+/* ===== Bank soal: cerita singkat bangun ruang, bertingkat mudah-sedang-sulit ===== */
 var BANK=[
-{stim:"Ayah membuat kotak mainan berbentuk kubus dengan rusuk 10 cm untuk adik.",
+/* --- MUDAH --- */
+{d:"mudah",stim:"Ayah membuat kotak mainan berbentuk kubus dengan rusuk 10 cm untuk adik.",
  q:"Berapa volume kotak mainan tersebut?",
  a:["1.000 cm³","600 cm³","100 cm³","120 cm³"],c:0},
-{stim:"Sebuah akuarium berukuran panjang 60 cm, lebar 40 cm, dan tinggi 50 cm. (1 liter = 1.000 cm³)",
- q:"Berapa liter air yang dapat ditampung akuarium itu?",
- a:["120 liter","60 liter","240 liter","12 liter"],c:0},
-{stim:"Ibu membungkus kado berbentuk kubus dengan rusuk 20 cm menggunakan kertas kado.",
+{d:"mudah",stim:"Ibu membungkus kado berbentuk kubus dengan rusuk 20 cm menggunakan kertas kado.",
  q:"Berapa luas kertas minimal yang dibutuhkan?",
  a:["2.400 cm²","8.000 cm²","400 cm²","1.600 cm²"],c:0},
-{stim:"Sebuah balok kayu berukuran 10 cm × 6 cm × 4 cm akan dicat seluruh permukaannya.",
- q:"Berapa luas permukaan yang dicat?",
- a:["248 cm²","240 cm²","124 cm²","480 cm²"],c:0},
-{stim:"Tenda berbentuk limas segiempat memiliki alas 4 m × 4 m dan tinggi 3 m.",
- q:"Berapa volume udara di dalam tenda?",
- a:["16 m³","48 m³","8 m³","12 m³"],c:0},
-{stim:"Tenda pramuka berbentuk prisma segitiga. Alas segitiganya 2 m, tinggi segitiga 1,5 m, dan panjang tenda 4 m.",
- q:"Berapa volume tenda tersebut?",
- a:["6 m³","12 m³","3 m³","8 m³"],c:0},
-{stim:"Kaleng susu berbentuk tabung dengan jari-jari 7 cm dan tinggi 10 cm. (π = 22/7)",
- q:"Berapa volume kaleng susu tersebut?",
- a:["1.540 cm³","154 cm³","440 cm³","2.200 cm³"],c:0},
-{stim:"Drum berbentuk tabung tanpa tutup dengan jari-jari 7 cm dan tinggi 10 cm akan dicat bagian luarnya. (π = 22/7)",
- q:"Berapa luas bagian yang dicat?",
- a:["594 cm²","748 cm²","440 cm²","154 cm²"],c:0},
-{stim:"Topi ulang tahun berbentuk kerucut dengan jari-jari 7 cm dan tinggi 24 cm. (π = 22/7)",
- q:"Berapa volume topi tersebut?",
- a:["1.232 cm³","3.696 cm³","616 cm³","1.540 cm³"],c:0},
-{stim:"Caping petani berbentuk kerucut dengan jari-jari 21 cm dan garis pelukis 29 cm. (π = 22/7)",
- q:"Berapa luas permukaan caping tersebut?",
- a:["3.300 cm²","1.914 cm²","1.386 cm²","3.000 cm²"],c:0},
-{stim:"Bola mainan memiliki jari-jari 7 cm. (π = 22/7)",
- q:"Berapa luas permukaan bola mainan tersebut?",
- a:["616 cm²","154 cm²","308 cm²","1.232 cm²"],c:0},
-{stim:"Volume sebuah kotak berbentuk balok adalah 480 cm³. Panjangnya 12 cm dan lebarnya 8 cm.",
- q:"Berapa tinggi kotak tersebut?",
- a:["5 cm","4 cm","6 cm","10 cm"],c:0},
-{stim:"Sebuah dadu raksasa berbentuk kubus dengan rusuk 15 cm.",
+{d:"mudah",stim:"Sebuah dadu raksasa berbentuk kubus dengan rusuk 15 cm.",
  q:"Berapa luas permukaan dadu tersebut?",
  a:["1.350 cm²","3.375 cm²","900 cm²","225 cm²"],c:0},
-{stim:"Piramida mainan memiliki alas persegi dengan sisi 6 cm dan tinggi sisi tegaknya 4 cm.",
+{d:"mudah",stim:"Volume sebuah kotak berbentuk balok adalah 480 cm³. Panjangnya 12 cm dan lebarnya 8 cm.",
+ q:"Berapa tinggi kotak tersebut?",
+ a:["5 cm","4 cm","6 cm","10 cm"],c:0},
+{d:"mudah",stim:"Sebuah balok memiliki panjang 8 cm, lebar 5 cm, dan tinggi 4 cm.",
+ q:"Berapa volume balok tersebut?",
+ a:["160 cm³","17 cm³","80 cm³","320 cm³"],c:0},
+{d:"mudah",stim:"Kaleng susu berbentuk tabung dengan jari-jari 7 cm dan tinggi 10 cm. (π = 22/7)",
+ q:"Berapa volume kaleng susu tersebut?",
+ a:["1.540 cm³","154 cm³","440 cm³","2.200 cm³"],c:0},
+/* --- SEDANG --- */
+{d:"sedang",stim:"Sebuah akuarium berukuran panjang 60 cm, lebar 40 cm, dan tinggi 50 cm. (1 liter = 1.000 cm³)",
+ q:"Berapa liter air yang dapat ditampung akuarium itu?",
+ a:["120 liter","60 liter","240 liter","12 liter"],c:0},
+{d:"sedang",stim:"Sebuah balok kayu berukuran 10 cm × 6 cm × 4 cm akan dicat seluruh permukaannya.",
+ q:"Berapa luas permukaan yang dicat?",
+ a:["248 cm²","240 cm²","124 cm²","480 cm²"],c:0},
+{d:"sedang",stim:"Tenda berbentuk limas segiempat memiliki alas 4 m × 4 m dan tinggi 3 m.",
+ q:"Berapa volume udara di dalam tenda?",
+ a:["16 m³","48 m³","8 m³","12 m³"],c:0},
+{d:"sedang",stim:"Tenda pramuka berbentuk prisma segitiga. Alas segitiganya 2 m, tinggi segitiga 1,5 m, dan panjang tenda 4 m.",
+ q:"Berapa volume tenda tersebut?",
+ a:["6 m³","12 m³","3 m³","8 m³"],c:0},
+{d:"sedang",stim:"Topi ulang tahun berbentuk kerucut dengan jari-jari 7 cm dan tinggi 24 cm. (π = 22/7)",
+ q:"Berapa volume topi tersebut?",
+ a:["1.232 cm³","3.696 cm³","616 cm³","1.540 cm³"],c:0},
+{d:"sedang",stim:"Bola mainan memiliki jari-jari 7 cm. (π = 22/7)",
+ q:"Berapa luas permukaan bola mainan tersebut?",
+ a:["616 cm²","154 cm²","308 cm²","1.232 cm²"],c:0},
+/* --- SULIT --- */
+{d:"sulit",stim:"Drum berbentuk tabung tanpa tutup dengan jari-jari 7 cm dan tinggi 10 cm akan dicat bagian luarnya. (π = 22/7)",
+ q:"Berapa luas bagian yang dicat?",
+ a:["594 cm²","748 cm²","440 cm²","154 cm²"],c:0},
+{d:"sulit",stim:"Caping petani berbentuk kerucut dengan jari-jari 21 cm dan garis pelukis 29 cm. (π = 22/7)",
+ q:"Berapa luas permukaan caping tersebut?",
+ a:["3.300 cm²","1.914 cm²","1.386 cm²","3.000 cm²"],c:0},
+{d:"sulit",stim:"Piramida mainan memiliki alas persegi dengan sisi 6 cm dan tinggi sisi tegaknya 4 cm.",
  q:"Berapa luas permukaan piramida mainan tersebut?",
  a:["84 cm²","36 cm²","48 cm²","96 cm²"],c:0},
-{stim:"Raka membuat miniatur tenda berbentuk prisma segitiga siku-siku dengan sisi 30 cm, 40 cm, 50 cm dan panjang 80 cm.",
+{d:"sulit",stim:"Raka membuat miniatur tenda berbentuk prisma segitiga siku-siku dengan sisi 30 cm, 40 cm, 50 cm dan panjang 80 cm.",
  q:"Berapa luas permukaan miniatur tenda tersebut?",
  a:["10.800 cm²","48.000 cm²","9.600 cm²","1.200 cm²"],c:0},
-{stim:"Sebuah bola memiliki jari-jari 21 cm. (π = 22/7)",
+{d:"sulit",stim:"Sebuah bola memiliki jari-jari 21 cm. (π = 22/7)",
  q:"Berapa volume bola tersebut?",
  a:["38.808 cm³","5.544 cm³","12.348 cm³","9.261 cm³"],c:0}
 ];
@@ -297,6 +303,16 @@ document.addEventListener("click",function(e){
 });
 
 /* ---- Alur game ---- */
+/* Susun 10 soal: 4 mudah + 3 sedang + 3 sulit, urut dari mudah ke sulit */
+function buildQuiz(){
+  function ambil(level,n){
+    return shuffle(BANK.filter(function(q){return q.d===level;})).slice(0,n);
+  }
+  return ambil("mudah",4).concat(ambil("sedang",3),ambil("sulit",3)).map(function(q){
+    var order=shuffle([0,1,2,3]);
+    return{stim:q.stim,q:q.q,opts:order.map(function(i){return q.a[i];}),c:order.indexOf(q.c)};
+  });
+}
 function showStart(){
   root.innerHTML=
   '<h2 class="ibg-title">📐 Numerasi Bangun Ruang</h2>'+
@@ -316,10 +332,7 @@ function showStart(){
     var sk=resolveSchool();
     if(!nm||!kl||!sk){menuMsg="Isi nama, kelas, dan pilih sekolah dari daftar ya!";showStart();return;}
     player.nama=nm;player.kelas=kl;player.sekolah=sk;menuMsg=null;saveState();
-    quiz=shuffle(BANK).slice(0,TOTAL_Q).map(function(q){
-      var order=shuffle([0,1,2,3]);
-      return{stim:q.stim,q:q.q,opts:order.map(function(i){return q.a[i];}),c:order.indexOf(q.c)};
-    });
+    quiz=buildQuiz();
     idx=0;score=0;saved=0;showQ();
   });
 }
@@ -399,10 +412,7 @@ function renderResult(){
   '<button class="ibg-btn ghost" id="ibg-home">Ganti Nama / Sekolah</button>'+
   '<p class="ibg-credit">Dibuat oleh MGMP Matematika SMP Kabupaten Pacitan</p>';
   document.getElementById("ibg-again").addEventListener("click",function(){
-    quiz=shuffle(BANK).slice(0,TOTAL_Q).map(function(q){
-      var order=shuffle([0,1,2,3]);
-      return{stim:q.stim,q:q.q,opts:order.map(function(i){return q.a[i];}),c:order.indexOf(q.c)};
-    });
+    quiz=buildQuiz();
     idx=0;score=0;saved=0;showQ();
   });
   document.getElementById("ibg-home").addEventListener("click",showStart);
